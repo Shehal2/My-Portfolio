@@ -1,0 +1,26 @@
+.navbar-nav {
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-custom {
+    max-width: 1450px;
+    margin: 0 auto;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px hwb(235 1% 53% / 0.9);
+}
+/* .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+} */
+
+ /* Media query for mobile screens */
+ @media (max-width: 767.98px) {
+    .navbar{
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        padding: 0px;
+        padding-top: 14px;
+    }
+}
